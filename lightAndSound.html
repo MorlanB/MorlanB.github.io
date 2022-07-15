@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>MorlanB IntDesign</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+            <header id="header">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Interior Design Visualization</h2>
+					</header>
+
+					<div class="box">
+						<table>
+							<thead>
+								<tr>
+									<th><b>Tools</b></th>
+									<th><b>Roles</b></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Unreal Engine<br />Krita</td>
+									<td>Level Lighting<br />Sound Implementation<br />Development</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<span class="image featured"><img src="images/LightAndSound_B.gif" alt="" /></span>
+						<br />
+						<h3>About the Application</h3>
+						<p>
+							This environment is an example of how VR can be used to bring places to people instead of the other way around.
+							In this specific case, the purpose is to give the user an idea of what an apartment suit would look like without having to go there.
+							They can see the place during daylight or at nighttime, change the lighting and access useful information all in the same environment.
+						</p>
+						<h3>The process...</h3>
+						<p>
+							An unlit apartment was provided to me to start working with. First, I set up the project so it could be used in VR.
+							Then, I created a sublevel for each time of the day and built the lighting for each.
+							For the user to be able to control which lighting sublevel was going to overlap the apartment, I created a widget with a checkbox and a slider.
+							While the checkbox was to toggle the daytime settings, the slider was to set the brightness of all lights in the environment.
+						
+						</p>
+						<p>
+							For the sound, I used Unreal Engine’s default audio managing tools and played around with the attenuation assets. The goal was to give it a cozy feeling that would fit the scene.
+							The icons in the widgets as well as the splash and icon of the app were all created in Krita.
+						</p>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://github.com/MorlanB" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/morlan-beltran-b05137232" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
