@@ -3894,5 +3894,17 @@
 			#cta {
 				padding: 2.5em 1em 3em 1em;
 			}
+	}
 
+	.video {
+		display: block;
+		margin: 0 0 2em 0;
+		width:  100%;
+		height: 700px;
+	}
+
+	@media screen and (max-width: 480px) {
+		.video{
+			height: 300px;
+		}
 	}
