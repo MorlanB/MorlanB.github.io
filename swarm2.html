@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>MorlanB Swarm2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+            <header id="header">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Swarm 2</h2>
+					</header>
+
+					<div class="box">
+						<table>
+							<thead>
+								<tr>
+									<th><b>Tools</b></th>
+									<th><b>Roles</b></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Unity Engine <br /> Visual Studio <br /> OVR Metrics <br /> ... </td>
+									<td>Development</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+						<br />
+
+						<h3>About Swarm 2</h3>
+						<p>
+							A VR rogue-like shooter more simply described as “Spiderman with guns”  plus  my favorite project so far! Play as Marv and grapple through different environments while  destroying  alien robot enemies and getting stronger in the coolest  way possible. 
+						</p>
+						<p>The game is on the <a href="https://www.meta.com/es-la/experiences/swarm-2/5791805387504648/">Meta store</a> and on <a href="https://store.steampowered.com/app/2929260/SWARM_2/">Steam</a>!</p>
+						<h3>My contributions.</h3>
+						<p>
+							<b>Player Modifiers. </b>
+							Designed a flexible modifier system allowing players to select temporary Perks at the end of each level to gain new abilities, boost existing ones, trigger special mechanics, or apply effects to enemies. Players can also use collected shards to upgrade permanent abilities. This system enabled us to create and implement over 70 unique abilities through a standardized method, making the content scalable and easy to expand
+						</p>
+						<p>
+							<b>Damage Calculation and Feedback. </b>
+							losely tied to perks and abilities, I designed a damage system that served as the core for many in-game mechanics. The system triggered perks, initiated abilities, and allowed for dynamic interactions, such as damage prevention or amplification. Despite multiple iterations during development, the final version is robust, easy to use, and integral to gameplay.
+						</p>
+						<p>
+							<b>Tutorial Creation System. </b>
+							Developed a modular tutorial creation system where developers could easily build new tutorial sections by filling in data fields. This allowed developers to focus on crafting custom sequences and completion triggers without needing to worry about the underlying framework.
+						</p>
+						<p>
+							<b>Performance Benchmark. </b>
+							With over X levels, we needed a way to monitor performance consistently across different environments. I developed a Python script that automates performance testing by moving a locked VR headset along a spline, gathering data using OVR Metrics Tools. This generated graphs that identified performance bottlenecks, guiding rework where necessary.
+						</p>
+						<p>
+							<b>Editor Tools. </b>
+							Created time-saving tools for the team, like the ability to launch the game directly into a specific tutorial section, update button thumbnails across levels, or debug all available modifiers with a single click in the editor. These tools significantly improved development efficiency.
+						</p>
+						<p>
+							<b>Oculus Achievements and Leaderboards. </b>
+							The Implemented Oculus achievements and leaderboard systems, ensuring players receive notifications when their rank changes or when an achievement is unlocked. If they lose their rank, they're prompted to re-engage and climb the leaderboard again..
+						</p>
+						<p>
+							<b>Localization. </b>
+							Integrated Unity’s Localization package to support multiple languages. I also synchronized in-game content with the localization tables, maintaining an up-to-date structure for translators and ensuring seamless updates throughout the game’s development.
+						</p>
+						<p>
+							<b>VFX Integration. </b>
+							Managed the integration of visual effects, particularly those tied to perks and abilities, ensuring the gameplay feels responsive, visually exciting, and immersive.
+						</p>
+						<iframe class="video" src="https://www.youtube.com/embed/-152LOXaM-g" title="SWARM 2 - Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://github.com/MorlanB" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/morlan-beltran-b05137232" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://www.instagram.com/morlan_beltran/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

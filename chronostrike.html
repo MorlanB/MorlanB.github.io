@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>MorlanB Chronostrike</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+            <header id="header">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Chronostrike</h2>
+					</header>
+
+					<div class="box">
+						<table>
+							<thead>
+								<tr>
+									<th><b>Tools</b></th>
+									<th><b>Roles</b></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Unity Engine <br /> Visual Studio <br /> ... </td>
+									<td>Development</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+						<br />
+
+						<h3>About Chronostrike. </h3>
+						<p>Chronostrike is a fast-paced action game with both single-player and co-op modes, where players dive into various levels, defeating enemies while uncovering the mystery of Nuragen. The faster players move, the faster time progresses.</p>
+						<p>The focus of development was on creating tools that empowered designers to easily implement unique levels, each with its own rhythm and objectives. Designers were given a variety of options, such as enemy configuration menus, timeline-based triggers, and numerous settings, allowing them to iterate and gather feedback efficiently, sprint by sprint.</p>
+						<p>The game is on the <a href="https://www.meta.com/es-la/experiences/chronostrike/24697269806585974/">Meta store</a>!</p>
+						<h3>My contributions.</h3>
+						<p>
+							<b>Character and Feature Configurations. </b>
+							As previously mentioned, most of the dev work was to create easy to use tools for designers so they could configure levels and characters. While in the project, I too added several configuration options to enemies like type of target, death behaviours, ammo… All available in a single component that would add, remove or update the required scripts behind the scenes.
+						</p>
+						<p>
+							<b>Baked Modular Characters. </b>
+							In a similar vein, I implemented a system for characters to be customized with options like gender, torso variations, hair color, and clothing. Upon saving the scene, the character's unique combination of visual elements was baked into a single skinned mesh with a unified material to optimize performance and reduce render calls. Each combination was assigned a unique ID and enabled during gameplay.
+						</p>
+						<p>
+							<b>Asset Integration. </b>
+							I was responsible for integrating various assets, including VFX, models, animations, and Wwise audio events. One of the more complex aspects was managing animations. Chronostrike’s characters have different weapons, follow navmesh paths with obstacles, and exhibit varying behaviors depending on their configurations. To handle this, I created a robust modular animation system, capable of managing numerous variables and blending a large number of animations across multiple layers and weightings.
+						</p>
+						<iframe class="video" src="https://www.youtube.com/embed/OBogAz29f60" title="Chronostrike - Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://github.com/MorlanB" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/morlan-beltran-b05137232" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://www.instagram.com/morlan_beltran/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
